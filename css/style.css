@@ -5,3 +5,13 @@ body {
     line-height: 1.5;
     margin: 0cm;
 }
+
+/*footer and header*/
+.pitchfork-footer {
+    background-color: black;
+}
+
+.pitchfork-logo {
+    background-color: black;
+}
+
