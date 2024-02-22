@@ -4,14 +4,78 @@ body {
     font-style: normal;
     line-height: 1.5;
     margin: 0cm;
+    color: #1a1a1a;
 }
 
-/*footer and header*/
+/*footer and header are seperate*/
 .pitchfork-footer {
     background-color: black;
+    color: #fff;
+    text-align: center;
 }
 
 .pitchfork-logo {
     background-color: black;
+    color: #fff;
+    text-align: center;
 }
 
+/*had to add a class to the image because it wasn't targetting the image it was targeting the header*/
+.rock-hall-of-fame-2024 {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.pitchfork-logo {
+    /* ADD WIDTH 100PX BUT IT ISNT WORKING*/
+    padding-top: 8px;
+}
+
+main {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    line-height: 1.3;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.news {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: .85rem;
+    border-bottom: 2px solid #ff3530;
+}
+
+
+figcaption,
+.sub-title,
+.author,
+.date,
+h2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight:400;
+    font-style: normal;
+}
+
+.ul-title { 
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.author {
+    font-size: .85;
+    margin-bottom: 0%;
+}
+
+.date {
+    font-size: .85;
+    margin-bottom: 0%;
+}
