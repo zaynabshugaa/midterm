@@ -81,6 +81,11 @@ h2 {
 }
 /*cannor get the font size and margin to show up- work on that, i changed the div class in the html file for the date and author and i change it for the font family for open sans*/
 
+figure {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
 figcaption {
     font-size: 0.75rem;
     text-align: center;
